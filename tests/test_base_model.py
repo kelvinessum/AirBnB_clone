@@ -1,5 +1,14 @@
 #!/usr/bin/python3
 from models.base_model import BaseModel
+from models import storage
+from datetime import datetime
+import json
+from models.state import State
+from models.city import City
+from models.amenity import Amenity
+from models.place import Place
+from models.review import Review
+from uuid import uuid4
 
 my_model = BaseModel()
 my_model.name = "My First Model"
